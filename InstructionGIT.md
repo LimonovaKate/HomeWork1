@@ -11,8 +11,18 @@
 4. **git add** - добавление изменений
      * **git add .** - добавление во все файлы в текущем каталоге
      * **git add namefile** - добавление в файл с указанным именем (можно через *tab* выбирать имеющиеся)
+
 5. **git log** - вызов журнала изменений
+
+     * __git log --graph__
+
 6. **git checkout nameversion** - возвращение к версии с названием *nameversion*
 7. **git checkout master** - возвращение к ветви *master*
 8. **git branch** - вызов названия ветки, в которой производятся изменения
+
+    * __git branch namebranch__ 
+    * __git branch -d namebranche__
+
 9. **git diff** - вызов изменений текущей версии файла с последним сохранением
+
+10. **git merge namebranch**
